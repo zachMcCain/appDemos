@@ -1,10 +1,8 @@
-img {
-  width: 50px;
-}
+
 
 .cardContainer {
   display: inline-block;
-  min-width: 700px;
+  width: 800px;
   min-height: 450px;
   background-color: #116466;
   border-radius: 7px;
@@ -15,11 +13,21 @@ img {
   padding: 10px;
   color: #D1E8E2;
   display: grid;
+  grid-template-columns: 4fr 6fr;
+  grid-template-rows: 3fr 3fr;
 }
 
+img {
+  height: 400px;
+  padding: 15px;
+  border-radius: 20px;
+}
 
 .logo {
   display: inline-block;
+  height: 200px;
+  justify-content: center;
+  border-radius: 7px;
 }
 
 .user {
@@ -33,8 +41,15 @@ img {
 }
 
 .title {
-  font-size: 30px;
+  font-size: 25px;
   margin: 5px;
+  text-align: right;
+}
+
+.info {
+  grid-column: 2;
+  grid-row: 2;
+  padding: 10px;
   text-align: right;
 }
 
