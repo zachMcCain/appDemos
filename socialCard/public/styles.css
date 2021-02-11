@@ -1,0 +1,49 @@
+img {
+  width: 50px;
+}
+
+.cardContainer {
+  display: inline-block;
+  min-width: 700px;
+  min-height: 450px;
+  background-color: #116466;
+  border-radius: 7px;
+  /* font-family: sans-serif; */
+}
+
+.card {
+  padding: 10px;
+  color: #D1E8E2;
+  display: grid;
+}
+
+
+.logo {
+  display: inline-block;
+}
+
+.user {
+  display: inline-block;
+}
+
+.name {
+  font-size: 50px;
+  margin: 5px;
+  text-align: right;
+}
+
+.title {
+  font-size: 30px;
+  margin: 5px;
+  text-align: right;
+}
+
+.float {
+  box-shadow: 3px 3px 4px gray;
+  transition: all .3s ease-in-out;
+}
+
+.float:hover {
+  transform: translate3d(-2px, -2px, 0px);
+  box-shadow: 6px 6px 4px gray;
+}

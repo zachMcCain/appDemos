@@ -1,10 +1,15 @@
 import React from 'react';
 
-const SocialCard = (props) => {
+const SocialCard = ({user}) => {
   return (
-    <div>
-      <img src="./../assets/gitHub.png" />
-      <h1>Social Card</h1>
+    <div className='cardContainer float'>
+      <div className="card">
+        <a className='logo' href={user.gitHub} target="_blank"><img src="./../assets/gitHub.png" /></a>
+        <div className='user'>
+          <h1 className='name'>{user.name}</h1>
+          <h5 className='title'>{user.title}</h5>
+        </div>
+      </div>
     </div>
   )
 }

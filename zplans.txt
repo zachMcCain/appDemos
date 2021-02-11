@@ -1,0 +1,19 @@
+//////////  Components  \\\\\\\\\\
+Nav Bar
+Drop Down
+Pop Over
+Card
+
+
+
+
+//////////  CSS Learning   \\\\\\\\\\
+
+------ Placement ------
+Split Left and Right
+Center Vertical and Horizontal
+Display Properties
+
+
+------ Animation ------
+Card Flip
