@@ -4,8 +4,8 @@ const SocialCard = ({user}) => {
   return (
     <div className='cardContainer float'>
       <div className="card">
-        <a className='logo' href={user.gitHub} target="_blank">
-          <img src="./../assets/IMG_9001.jpg" />
+        <a className='logo' >
+          <img className='pic' src="./../assets/IMG_9001.jpg" />
         </a>
         <div className='user'>
           <h1 className='name'>{user.name}</h1>
@@ -13,6 +13,9 @@ const SocialCard = ({user}) => {
         </div>
         <div className='info'>
           <p>I am writing some information that is intended to go in the bottom right-hand corner of the card.</p>
+        </div>
+        <div className='links'>
+          <img href={user.gitHub} target="_blank" src="./../assets/gitHub.png"></img>
         </div>
       </div>
     </div>

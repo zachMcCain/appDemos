@@ -3,6 +3,14 @@ Nav Bar
 Drop Down
 Pop Over
 Card
+Search Bar
+Header
+Modal
+  - Pictures
+  - Cards
+Reviews
+SideBar
+Posts
 
 
 
