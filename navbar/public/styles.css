@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#navbar {
+  background-color: rgb(14, 20, 20);
+  align-content: center;
+  height: 100px;
+}
+
+.navItems {
+  display: grid;
+  grid-template-columns: 1fr 4fr 2fr 2fr 2fr;
+  align-self: center;
+}
+
+.title {
+  grid-column: 2;
+  align-self: center;
+}
+
+.option {
+  align-self: center;
+}
+
+.first {
+  grid-column: 3;
+}
+
+.second {
+  grid-column: 4;
+}
+
+.third {
+  grid-column: 5;
+}
