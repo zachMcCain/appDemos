@@ -1,0 +1,22 @@
+{
+  "name": "appdemos",
+  "version": "1.0.0",
+  "description": "Container for modules and demos of various apps",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachMcCain/appDemos.git"
+  },
+  "author": "Zach McCain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zachMcCain/appDemos/issues"
+  },
+  "homepage": "https://github.com/zachMcCain/appDemos#readme"
+}
