@@ -5,24 +5,32 @@ body {
 }
 
 #navbar {
-  background-color: rgb(14, 20, 20);
+  background-color: rgb(10, 14, 14);
   align-content: center;
-  height: 100px;
+  height: auto;
 }
 
 .navItems {
   display: grid;
-  grid-template-columns: 1fr 4fr 2fr 2fr 2fr;
+  grid-template-columns: 1fr 5fr 1fr 1fr 1fr 1fr;
   align-self: center;
 }
 
 .title {
   grid-column: 2;
   align-self: center;
+  margin-right: 40px;
+  font-size: 50px;
 }
 
 .option {
   align-self: center;
+  /* text-align: right; */
+  padding: 10px;
+  padding-right: 0;
+  padding-bottom: 0;
+  font-size: 22px;
+  cursor: pointer;
 }
 
 .first {
